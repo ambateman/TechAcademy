@@ -1,0 +1,14 @@
+PDXTime = Clock.Hour 
+LondonTime = PDXTime+8
+NYTime =  PDXTime + 3
+If(LondonTime>=9 And LondonTime <= 21) then
+  TextWindow.WriteLine("The London Office is Open")
+Else
+  TextWindow.WriteLine("The London Office is Closed")
+EndIf
+
+If(NYTime>=9 And NYTime <= 21) then
+  TextWindow.WriteLine("The New York Office is Open")
+Else
+  TextWindow.WriteLine("The New York Office is Closed")
+EndIf
