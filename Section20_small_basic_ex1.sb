@@ -1,0 +1,15 @@
+TextWindow.Title = "Small Basic Exercise 1"
+TextWindow.Write("Enter Your First Number: ")
+firstNum = TextWindow.ReadNumber()
+TextWindow.Write("Enter Your Second Number: ")
+secondNum = TextWindow.ReadNumber()
+If(secondNum > firstNum) Then
+  TextWindow.WriteLine("The smaller number is " + firstNum)
+ElseIf (secondNum < firstNum) then
+  TextWindow.WriteLine("The smaller number is " + secondNum)
+Else
+  TextWindow.WriteLine("The numbers are the same size")
+EndIf
+
+      
+      
