@@ -4,11 +4,11 @@ Controls.ButtonClicked = onButtonClick
 
 Sub onButtonClick
   PDXTime = Clock.Hour 
-  TextWindow.WriteLine("PDX Time" + PDXTime)
   LondonTime = PDXTime+8
-  TextWindow.WriteLine("London: " + LondonTime)
   If(LondonTime < 9 OR LondonTime > 21) then
-    File.CopyFile("C:\Users\User\Desktop\Test Folder 1\Dummy.txt","C:\Users\User\Desktop\Test Folder 2")
+    GraphicsWindow.ShowMessage("File Copy Status: " +  File.CopyFile("C:\Users\User\Desktop\Test Folder 1\Dummy.txt","C:\Users\User\Desktop\Test Folder 2"), "London Office Closed")
+  Else
+    GraphicsWindow.ShowMessage("London Office open. File copy not allowed.","London Open")
   EndIf
 EndSub
 
