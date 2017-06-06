@@ -1,0 +1,8 @@
+PDXTime = Clock.Hour 
+LondonTime = PDXTime+8
+If(LondonTime<9 OR LondonTime > 21) then
+  TextWindow.WriteLine("File Copy Results: " + File.CopyFile("C:\Users\User\Desktop\Test Folder 1\Dummy.txt","C:\Users\User\Desktop\Test Folder 2"))
+Else
+  TextWindow.WriteLine("The London Office is open. File transfer not available.")
+EndIf
+
