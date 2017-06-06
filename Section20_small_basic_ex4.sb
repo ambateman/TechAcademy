@@ -1,7 +1,0 @@
-PDXTime = Clock.Hour 
-LondonTime = PDXTime+8
-NYTime =  PDXTime + 3
-If(LondonTime>=9 And LondonTime <= 21) then
-  TextWindow.WriteLine("File Copy Results: " + File.CopyFile("C:\Users\User\Desktop\Test Folder 1\Dummy.txt","C:\Users\User\Desktop\Test Folder 2"))
-EndIf
-
