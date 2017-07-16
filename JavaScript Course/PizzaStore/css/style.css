@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
 	color:#fff;
 	font-family:roboto;
@@ -37,4 +38,45 @@ h1 {
 		background-color:red;
 		width:300px;
 		height:75px;
+=======
+h1 {
+	color:#fff;
+	font-family:roboto;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+
+#size{
+		background-color:gray;
+		width:300px;
+		height:75px;
+		}
+#crust{
+		background-color:salmon;
+		width:300px;
+		height:75px;
+		}
+#cheese{
+		background-color:yellow;
+		width:300px;
+		height:75px;
+		}
+		
+#sauce{
+		background-color:pink;
+		width:300px;
+		height:75px;
+		}
+		
+#meat{
+		background-color:aqua;
+		width:300px;
+		height:75px;
+		}
+#vegetables{
+		background-color:red;
+		width:300px;
+		height:75px;
+>>>>>>> b3e46a605f30e247e8e08b66dfe163dd5ba790ab
 		}
