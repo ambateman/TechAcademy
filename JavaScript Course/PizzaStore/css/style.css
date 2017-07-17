@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 h1 {
 	color:#fff;
 	font-family:roboto;
@@ -6,77 +6,160 @@ h1 {
 	text-transform:uppercase;
 }
 
-
-#size{
-		background-color:gray;
-		width:300px;
-		height:75px;
-		}
-#crust{
-		background-color:salmon;
-		width:300px;
-		height:75px;
-		}
-#cheese{
-		background-color:yellow;
-		width:300px;
-		height:75px;
-		}
-		
-#sauce{
-		background-color:pink;
-		width:300px;
-		height:75px;
-		}
-		
-#meat{
-		background-color:aqua;
-		width:300px;
-		height:75px;
-		}
-#vegetables{
-		background-color:red;
-		width:300px;
-		height:75px;
-=======
-h1 {
+.lead {
 	color:#fff;
 	font-family:roboto;
 	font-weight:900;
-	text-transform:uppercase;
+	font-style:italic;
+
 }
 
 
+
+.fakeJumbotron{
+				text-align:center;	
+				background-color:green;
+				height:300px;
+				vertical-align:middle;
+}
+
+
+.lead{
+		font-size:25px;
+		font-weight:800;
+}
+
+
+input {
+		padding:10px;
+		margin: 10px;
+		}
+
+.inner3{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: red;	
+}
+
+.inner4{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: blue;	
+}
+
+.inner5{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: green;	
+}
+
+.inner6{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: yellow;	
+}
+
+.inner7{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: black;	
+}
+.inner8{
+		height:75;
+		width:170px;
+		border-style:solid;
+		border-color: black;	
+}
+
+p {
+	font-size:18px;
+	font-weight:800;
+	position:relative;
+	top:25px;
+}
+.innerP {
+		font-size:12px;
+		font-weight:900;
+		position:relative;
+		top:5px;
+		}
+
 #size{
-		background-color:gray;
-		width:300px;
-		height:75px;
-		}
-#crust{
-		background-color:salmon;
-		width:300px;
-		height:75px;
-		}
-#cheese{
-		background-color:yellow;
-		width:300px;
-		height:75px;
+		margin:6px;
+		display:block;
+
+		float:left;
 		}
 		
+#crust{
+		position:relative;
+		top:-30px;
+		margin:6px;
+		display:block;
+		float:left;
+		
+	
+		}
+		
+				
 #sauce{
-		background-color:pink;
-		width:300px;
-		height:75px;
+		position:relative;
+		top:-1px;
+		margin:6px;
+		display:block;
+		float:left;
+
+		}
+		
+#cheese{
+		position:relative;
+		top:-24px;
+	
+		margin:6px;
+		display:block;
+		float:left;
+
 		}
 		
 #meat{
-		background-color:aqua;
-		width:300px;
-		height:75px;
+		position:relative;
+		top:-25px;
+		margin:6px;
+		display:block;
+		float:left;
 		}
-#vegetables{
-		background-color:red;
-		width:300px;
-		height:75px;
->>>>>>> b3e46a605f30e247e8e08b66dfe163dd5ba790ab
+		
+#vegetable{
+		position:relative;
+		top:-25px;
+		margin:6px;
+		display:block;
+		float:left;
 		}
+
+#order{
+		position:relative;
+		top:-100px;
+		left:40%;
+		height:75px;
+		width:150px;
+		background-color:green;
+		font-size:25px;
+		font-weight:900px;
+		color:#fff;
+}
+
+#pizzaOrder{
+				position:relative;
+				left:35%;
+				border:solid;
+				border-color:blue;
+				width:25%;
+
+	
+}
