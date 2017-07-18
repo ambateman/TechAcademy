@@ -106,60 +106,65 @@
 			</div>
 		</div>
 			<br><br><br>
-			<button type="button" id="order" onclick="myFunction()" >ORDER</button>
 			
-			<table id="pizzaOrder">
-			  <tr>
-				<th>Item</th>
-				<th>Price</th> 
-			  </tr>
-			  
-			  <tr>
-				<td id="SelSize"></td>
-				<td id="SelSizePrice"></td> 
-			  </tr>
-			  
-			  <tr>
-				<td id="SelCrust"></td>
-				<td id="SelCrustPrice"></td> 
-			  </tr>
-			  
-			  <tr>
-				<td id="SelSauce"></td>
-				<td id="SelSaucePrice"></td> 
-			  </tr>
-			  
-			  
-			  
-			  <tr>
-				<td id="SelCheese"></td>
-				<td id="SelCheesePrice"></td> 
-			  </tr>
-			  
-			  <tr>
-				<td id="SelMeat"></td>
-				<td id="SelMeatPrice"></td> 
-			  </tr>
-			  
-			  <tr>
-				<td id="SelVege"></td>
-				<td id="SelVegePrice"></td> 
-			  </tr>
-			  
-			  
-			  <tr>
-				<td id="totalPrice">TOTAL PRICE:</td>
-				<td id="youPay"></td> 
+			<div id="orderButton">
+				<button type="button" id="order" onclick="myFunction()" >ORDER</button>
+			</div> <!--Order button -->
+			
+			
+			<div id="tableDiv">
+				<table id="pizzaOrder">
+				  <tr>
+					<th>Item</th>
+					<th>Price</th> 
+				  </tr>
+				  
+				  <tr>
+					<td id="SelSize"></td>
+					<td id="SelSizePrice"></td> 
+				  </tr>
+				  
+				  <tr>
+					<td id="SelCrust"></td>
+					<td id="SelCrustPrice"></td> 
+				  </tr>
+				  
+				  <tr>
+					<td id="SelSauce"></td>
+					<td id="SelSaucePrice"></td> 
+				  </tr>
+				  
+				  
+				  
+				  <tr>
+					<td id="SelCheese"></td>
+					<td id="SelCheesePrice"></td> 
+				  </tr>
+				  
+				  <tr>
+					<td id="SelMeat"></td>
+					<td id="SelMeatPrice"></td> 
+				  </tr>
+				  
+				  <tr>
+					<td id="SelVege"></td>
+					<td id="SelVegePrice"></td> 
+				  </tr>
+				  
+				  
+				  <tr>
+					<td id="totalPrice">TOTAL PRICE:</td>
+					<td id="youPay"></td> 
 
-			  </tr>
-			</table>
+				  </tr>
+				</table>
 				
 			
 			
 			
 			
 			</table>
-			
+		</div> <!-- Table -->
 
 				<!-- /main content -->
 		
@@ -260,7 +265,7 @@
 				}
 				document.getElementById("youPay").innerHTML="$" + (basePrice+crustSurcharge+cheeseSurcharge+meatSurcharge+vegetableSurcharge) + ".00";;
 				
-				document.getElementById("pizzaOrder").style.visibility="visible";
+				document.getElementById("tableDiv").style.display="block";
 			
 			
 			

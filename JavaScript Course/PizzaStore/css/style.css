@@ -159,7 +159,26 @@ p {
 				left:35%;
 				border:solid;
 				border-color:blue;
-				width:25%;
+				width:250px;
 
+	
+}
+
+#orderButton{
+		position: absolute;
+		left: 40%;
+		top: 700px;
+}
+
+#tableDiv{
+		position: absolute;
+		left: 36%;
+		top: 700px;
+		width:170px;
+		display:none;
+}
+td{
+	border-top-style:dotted;
+	border-color:green;
 	
 }
