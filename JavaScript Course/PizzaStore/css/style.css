@@ -182,3 +182,10 @@ td{
 	border-color:green;
 	
 }
+
+#footer{
+		position:relative;
+		top:600px;
+		height:50px;
+		background-color:green;
+}
